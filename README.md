@@ -1,10 +1,8 @@
 # The CircleHub Chelsea News API
 
-The base URL for all API resources is ```http://chelsea-news-api.herokuapp.com/api```.
-
-All data send and received as JSON.
-
-Timestamps are returned in ISO 8601 format: ```YYYY-MM-DDTHH:MM:SSZ```
+- The base URL for all API resources is ```http://chelsea-news-api.herokuapp.com/api```.
+- All data send and received as JSON.
+- Timestamps are returned in ISO 8601 format: ```YYYY-MM-DDTHH:MM:SSZ```
 
 ## User Agent
 
@@ -21,8 +19,8 @@ Example:
 - Fixtures
 - Leagues
 - Players
-- Push Tokens
-- Notifications
+- [Push Tokens](#push-tokens)
+- [Notifications](#notifications)
 
 ## Push Tokens
 
@@ -30,7 +28,7 @@ Register a device for push notifications
 
 ### Request
 
-```POST /push_token```
+```POST /push_token.json```
 
 ### Parameters
 
@@ -53,7 +51,7 @@ You can use this to subscribe or unsubscribe from push notifications. Currently 
 
 ### Request - Subscribe
 
-```POST /push_token```
+```POST /notifications.json```
 
 ### Parameters
 
@@ -69,7 +67,7 @@ Body: ```empty```
 
 ### Request - Unsubscribe
 
-```DELETE /push_token```
+```DELETE /notifications.json```
 
 ### Parameters
 
