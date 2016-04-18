@@ -10,8 +10,8 @@ We recommend all API clients to include a ```User-Agent``` header with the name 
 
 Example:
 
-```User-Agent: SomeAwesomeAppName (john@someawesomeappname.com)```
-```User-Agent: SomeAwesomeAppName (http://www.someawesomeappname/com)```
+- ```User-Agent: SomeAwesomeAppName (john@someawesomeappname.com)```
+- ```User-Agent: SomeAwesomeAppName (http://www.someawesomeappname/com)```
 
 ## Resources
 
